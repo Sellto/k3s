@@ -54,7 +54,7 @@ set -e
 #   - INSTALL_K3S_TYPE
 #     Type of systemd service to create, will default from the k3s exec command
 #     if not specified.
-
+INSTALL_K3S_VERSION=v0.2.0
 GITHUB_URL=https://github.com/rancher/k3s/releases
 GITHUB_STARTUP_URL=https://github.com/Sellto/k3s-startup/releases
 
